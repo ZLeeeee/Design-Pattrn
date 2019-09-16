@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Factory" />
         <module name="Observer" />
         <module name="Decorator" />
         <module name="Strategy" />
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="Decorator" target="1.8" />
       <module name="Design-Pattern" target="1.8" />
+      <module name="Factory" target="1.8" />
       <module name="Observer" target="1.8" />
       <module name="Strategy" target="1.8" />
     </bytecodeTargetLevel>
