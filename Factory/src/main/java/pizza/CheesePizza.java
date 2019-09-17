@@ -1,18 +1,15 @@
 package pizza;
 
-public class CheesePizza implements Pizza {
-    @Override
-    public void bake() {
-        System.out.println("CheesePizza baked");
+public class CheesePizza extends AbstractPizza {
+    private PizzaIngredientFactory factory;
+    public CheesePizza(PizzaIngredientFactory factory){
+        this.factory = factory;
     }
-
     @Override
-    public void cut() {
-        System.out.println("CheesePizza cut");
-    }
-
-    @Override
-    public void box() {
-        System.out.println("CheesePizza boxed");
+    void prePare() {
+        dough = factory.getDough();
+        cheese = factory.getCheese();
+        sauce = factory.getSauce();
+        System.out.println("prePare Ending");
     }
 }

@@ -1,18 +1,15 @@
 package pizza;
 
-public class ClamPizza implements Pizza {
-    @Override
-    public void bake() {
-        System.out.println("ClamPizza baked");
+public class ClamPizza extends AbstractPizza {
+    private PizzaIngredientFactory factory;
+    public ClamPizza(PizzaIngredientFactory factory){
+        this.factory = factory;
     }
-
     @Override
-    public void cut() {
-        System.out.println("ClamPizza cut");
-    }
-
-    @Override
-    public void box() {
-        System.out.println("ClamPizza boxed");
+    void prePare() {
+        dough = factory.getDough();
+        cheese = factory.getCheese();
+        sauce = factory.getSauce();
+        System.out.println("prePare Ending");
     }
 }
