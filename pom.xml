@@ -13,6 +13,12 @@
 		<module>Observer</module>
 		<module>Decorator</module>
         <module>Factory</module>
+        <module>Command</module>
+        <module>AdapterAndFacade</module>
+		<module>Template</module>
+		<module>IteratorAndComposite</module>
+        <module>State</module>
+        <module>Proxy</module>
 
 
     </modules>
