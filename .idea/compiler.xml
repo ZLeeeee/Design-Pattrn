@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Decorator" />
-        <module name="State" />
+        <module name="Proxy" />
         <module name="Strategy" />
         <module name="AdapterAndFacade" />
         <module name="Factory" />
+        <module name="Compound" />
+        <module name="State" />
         <module name="Template" />
         <module name="Command" />
         <module name="Observer" />
@@ -20,11 +22,13 @@
     <bytecodeTargetLevel>
       <module name="AdapterAndFacade" target="1.8" />
       <module name="Command" target="1.8" />
+      <module name="Compound" target="1.8" />
       <module name="Decorator" target="1.8" />
       <module name="Design-Pattern" target="1.8" />
       <module name="Factory" target="1.8" />
       <module name="IteratorAndComposite" target="1.8" />
       <module name="Observer" target="1.8" />
+      <module name="Proxy" target="1.8" />
       <module name="State" target="1.8" />
       <module name="Strategy" target="1.8" />
       <module name="Template" target="1.8" />

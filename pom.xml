@@ -19,6 +19,7 @@
 		<module>IteratorAndComposite</module>
         <module>State</module>
         <module>Proxy</module>
+        <module>Compound</module>
 
 
     </modules>

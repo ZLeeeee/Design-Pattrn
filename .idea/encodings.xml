@@ -4,10 +4,12 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AdapterAndFacade" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Command" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Compound" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Decorator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Factory" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IteratorAndComposite" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Observer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proxy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/State" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Strategy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Template" charset="UTF-8" />
